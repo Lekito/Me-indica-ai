@@ -1,0 +1,16 @@
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 34%;
+    top: 10%;
+}
+
+.formsenha {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color:coral;
+    flex-direction: column;
+}

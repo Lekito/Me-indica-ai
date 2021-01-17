@@ -5,10 +5,19 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Me indica Aí!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Começando </h1>
+      <div className={styles.box}>
+        <div className={styles.logo}>
+        </div>
+        <div className={styles.formularios}>
+          <form>
+            <input type="text" placeholder="Email ou telefone" className={styles.login}></input>
+            <input type="password" placeholder="Senha" className={styles.login}></input>
+          </form>
+        </div>
+      </div>
       
     </div>
   )

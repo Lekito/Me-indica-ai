@@ -16,6 +16,7 @@
   top: calc(50% - 126px/2 - 144px);
   background: #888181;
   border-radius: 50%;
+
 }
 
 .login {
@@ -37,4 +38,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.entrar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 132px;
+  margin:auto;
+  margin-top: 15px;
+
+  width: 312px;
+  height: 45px;
+  left: 59px;
+  top: 564px;
+
+  background: #FD1E4A;
+  border-radius: 100px;
+  color: beige;
+ 
 }

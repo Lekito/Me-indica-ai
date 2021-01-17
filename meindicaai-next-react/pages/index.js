@@ -11,10 +11,12 @@ export default function Home() {
       <div className={styles.box}>
         <div className={styles.logo}>
         </div>
+        <br/><br/>
         <div className={styles.formularios}>
           <form>
             <input type="text" placeholder="Email ou telefone" className={styles.login}></input>
             <input type="password" placeholder="Senha" className={styles.login}></input>
+            <button className={styles.entrar}>Entrar</button>
           </form>
         </div>
       </div>
